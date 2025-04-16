@@ -35,11 +35,13 @@ A Chrome extension that extracts experiment names and maximum values from Tensor
 
 2. Filter experiments as needed in the TensorBoard UI
 
-3. Click on the TensorBoard Experiment Exporter icon in your Chrome toolbar
+3. Pin the charts you want to extract data from using TensorBoard's pin feature to keep them at the top
+
+4. Click on the TensorBoard Experiment Exporter icon in your Chrome toolbar
 
 4. Choose one of the following options:
-- **Export as CSV**: Download a CSV file containing experiment names and maximum values
-- **Copy to Clipboard**: Copy the data in text format to your clipboard
+    - Export as CSV: Download a CSV file containing experiment names and maximum values
+    - Copy to Clipboard: Copy the data in text format to your clipboard
 
 5. If successful, you'll see a confirmation message
 
@@ -58,7 +60,8 @@ If the extension doesn't work correctly:
 
 - Make sure you're on a TensorBoard page with Time Series charts visible
 - Check if the experiments are properly loaded and displayed in TensorBoard
-- Try refreshing the page and waiting for all data to load before using the extension
+- **Try refreshing the page** and waiting for all data to load before using the extension
+- **Pin the charts you want to extract data** from using TensorBoard's pin feature to keep them at the top
 - Check the browser console for any error messages
 
 ## Advanced Configuration
