@@ -2,7 +2,7 @@
 
 ![TensorBoard Exporter Logo](icons/icon128.png)
 
-| First step                                 | Column 2                                         | Column 3                       |
+| First step                                 | Second Step                                      | Third Step                     |
 |--------------------------------------------|--------------------------------------------------|--------------------------------|
 | Open your tensorboard and pin a scaler     | Choose mode                                      | Get a csv format result        |
 | ![tensorboard.png](docs%2Ftensorboard.png) | ![tensorboard 2.png](docs%2Ftensorboard%202.png) | ![excel.png](docs%2Fexcel.png) |
