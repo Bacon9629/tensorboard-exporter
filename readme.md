@@ -2,6 +2,11 @@
 
 ![TensorBoard Exporter Logo](icons/icon128.png)
 
+| First step                                 | Column 2                                         | Column 3                       |
+|--------------------------------------------|--------------------------------------------------|--------------------------------|
+| Open your tensorboard and pin a scaler     | Choose mode                                      | Get a csv format result        |
+| ![tensorboard.png](docs%2Ftensorboard.png) | ![tensorboard 2.png](docs%2Ftensorboard%202.png) | ![excel.png](docs%2Fexcel.png) |
+
 A Chrome extension that extracts experiment names and maximum values from TensorBoard Time Series charts.
 
 ## Features
@@ -66,7 +71,8 @@ If the extension doesn't work correctly:
 
 ## Advanced Configuration
 
-The extension is configured to work with most TensorBoard setups, but you may need to adjust the selectors in `content.js` if you're using a different version of TensorBoard or if the DOM structure has changed.
+The extension is configured to work with most TensorBoard setups, but you may need to adjust the selectors
+in `content.js` if you're using a different version of TensorBoard or if the DOM structure has changed.
 
 ## Development
 
@@ -84,14 +90,13 @@ The extension is configured to work with most TensorBoard setups, but you may ne
    └── icon128.png
    ```
 
-
 ### Building and Testing
 
 1. Make your changes to the source code
 2. Test the extension by loading it as an unpacked extension in Chrome
 3. Use the Chrome DevTools to debug any issues:
-   - Right-click on the extension popup and select "Inspect" to debug the popup
-   - Open the DevTools console on a TensorBoard page to debug the content script
+    - Right-click on the extension popup and select "Inspect" to debug the popup
+    - Open the DevTools console on a TensorBoard page to debug the content script
 
 ## Contributing
 
