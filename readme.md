@@ -90,19 +90,4 @@ in `content.js` if you're using a different version of TensorBoard or if the DOM
    └── icon128.png
    ```
 
-### Building and Testing
-
-1. Make your changes to the source code
-2. Test the extension by loading it as an unpacked extension in Chrome
-3. Use the Chrome DevTools to debug any issues:
-    - Right-click on the extension popup and select "Inspect" to debug the popup
-    - Open the DevTools console on a TensorBoard page to debug the content script
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
