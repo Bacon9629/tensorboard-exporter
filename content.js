@@ -84,12 +84,6 @@ function extractTensorboardData() {
         }
     }
 
-    // 將結果複製到剪貼板
-    const csvContent = "Name,Min,Max\n" +
-        results.map(r => `${r.name},${r.minValue},${r.maxValue}`).join('\n');
-
-    copyToClipboard(csvContent);
-
     return results;
 }
 
